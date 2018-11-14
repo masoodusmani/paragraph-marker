@@ -5,9 +5,9 @@ html {
 body {
   min-height: 100%;
   height: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   padding: 20px;
 }
 /* .container {
@@ -32,10 +32,12 @@ textarea {
   /* max-height: 100%; */
   resize: none;
   padding: 15px;
+  border-color: transparent;
+  outline-color: #c18422;
 }
 .grid-container {
   width: 100%;
-  max-width: 1350px;
+  /* max-width: 1350px; */
   height: 100%;
   /* max-height: 900px; */
 
@@ -68,4 +70,22 @@ textarea {
 
 .Footer {
   grid-area: Footer;
+}
+.main-grid {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 1fr minmax(auto, 100%) auto;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'LeftAside Main RightAside';
+}
+.LeftAside {
+  grid-area: LeftAside;
+  min-width: 272px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+.Main {
+  grid-area: Main;
 }
