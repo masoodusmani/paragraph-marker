@@ -80,7 +80,7 @@ textarea {
 }
 .LeftAside {
   grid-area: LeftAside;
-  min-width: 272px;
+  min-width: 210px;
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   line-height: 1.2;
