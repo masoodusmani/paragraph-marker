@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="spectre.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <main class="grid-container">
+      <textarea
+        class="Left"
+        name="input-passage"
+        id="input-passage"
+        oninput="updatePassage(this)"
+        placeholder="Paste your passage here."
+      ></textarea>
+      <textarea
+        class="Right"
+        name="output-passage"
+        id="output-passage"
+        placeholder="Tagged passage will show up here"
+      ></textarea>
+      <footer class="Footer"></footer>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
