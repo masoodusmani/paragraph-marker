@@ -90,3 +90,10 @@ textarea {
 .Main {
   grid-area: Main;
 }
+@media (max-width:780px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'LeftAside' 'Main';
+  }
+}
