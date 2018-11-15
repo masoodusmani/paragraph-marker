@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center; */
   padding: 20px;
+  color: #6c5d7a;
 }
 /* .container {
   width: 100%;
@@ -33,7 +34,7 @@ textarea {
   resize: none;
   padding: 15px;
   border-color: transparent;
-  outline-color: #c18422;
+  outline-color: #6c5d7a;
 }
 .grid-container {
   width: 100%;
@@ -85,7 +86,6 @@ textarea {
   font-size: 48px;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  color: #6c5d7a;
 }
 .Main {
   grid-area: Main;
@@ -93,7 +93,7 @@ textarea {
 @media (max-width:780px) {
   .main-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-areas: 'LeftAside' 'Main';
   }
 }
